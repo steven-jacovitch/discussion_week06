@@ -1,0 +1,122 @@
+body{
+   /* Set line spacing */
+line-height: 2;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    padding: 10px 15px 20px 25px;
+    margin: 10px 15px 10px 15px;
+
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+    background-color: moccasin;
+
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color: black;
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-size: 300%;
+   font-family: "Merriweather", "Anton", "Times New Roman", Arial;
+
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-size: 275%;
+    font-family: 'Anton' , "Times New Roman", Arial;
+    text-align: center;
+}
+
+h3{
+    /*Set font size*/
+    font-size: 200%;
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 45px;
+
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border: 5px solid black;
+    border-radius: 15px;
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    box-shadow: 10px 10px 5px grey;
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+    box-shadow: 10px 10px 5px grey;
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+    box-shadow: 10px 10px 5px grey;
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
